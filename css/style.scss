@@ -66,7 +66,7 @@ $color-red: #d24648;
   height: 60px;
   font-size: 24px;
   font-weight: 400;
-  font-family: Serif;
+  font-family: Songti TC, Serif;
   letter-spacing: 0.3px;
   line-height: 60px;
   position: fixed;
@@ -107,6 +107,18 @@ main {
     color: $color-gray;
   }
 
+  .font-preview-btn {
+    color: $color-red;
+    font-size: 15px;
+  }
+
+  .font-style {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-top: 15px;
+  }
+
   .font-preview {
     margin-top: 30px;
 
@@ -137,7 +149,7 @@ main {
     font-size: 14px;
     line-height: 1.2;
     background-color: $color-light-gray;
-    overflow: scroll;
+    overflow-x: scroll;
   }
 }
 

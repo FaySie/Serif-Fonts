@@ -39,7 +39,7 @@ body {
   height: 60px;
   font-size: 24px;
   font-weight: 400;
-  font-family: Serif;
+  font-family: Songti TC, Serif;
   letter-spacing: 0.3px;
   line-height: 60px;
   position: fixed;
@@ -69,6 +69,14 @@ main {
     font-weight: bold;
     letter-spacing: 0.3px;
     color: #999; }
+  main .font-preview-btn {
+    color: #d24648;
+    font-size: 15px; }
+  main .font-style {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-top: 15px; }
   main .font-preview {
     margin-top: 30px; }
     main .font-preview p {
@@ -91,7 +99,7 @@ main {
     font-size: 14px;
     line-height: 1.2;
     background-color: #eee;
-    overflow: scroll; }
+    overflow-x: scroll; }
 
 footer {
   text-align: center;
